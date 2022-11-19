@@ -1,0 +1,26 @@
+<div>
+    <table class="center">
+        <thead>
+            <tr>
+                <th>first Name</th>
+                <th>last Name</th>
+                <th>title</th>
+                <th>country</th>
+                <th>city</th>
+                <th>birthDate</th>
+                <th>image</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let e of employees">
+                <td> {{e.firstName}} </td>
+                <td> {{e.lastName}} </td>
+                <td> {{e.title}} </td>
+                <td> {{e.country}} </td>
+                <td> {{e.city}} </td>
+                <td> {{e.birthDate}} </td>
+                <td> <img [src]="imageUrl + e.imageName" /> </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

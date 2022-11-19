@@ -1,0 +1,18 @@
+div {
+	padding-top: 15px;
+    height: 77vh;
+    overflow: auto;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, tr, th, td {
+    border: 1px double black;
+}
+
+img {
+    height: 120px;
+}
